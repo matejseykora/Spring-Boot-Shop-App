@@ -11,7 +11,6 @@ import org.springframework.lang.Nullable;
 @EqualsAndHashCode
 public class Customer {
     @Nullable
-    @Setter(AccessLevel.NONE)
     private Integer id;
     @NonNull
     private String name;
