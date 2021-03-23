@@ -11,6 +11,7 @@ import org.springframework.lang.Nullable;
 @EqualsAndHashCode
 public class Customer {
     @Nullable
+    @Setter(AccessLevel.NONE)
     private Integer id;
     @NonNull
     private String name;
@@ -19,7 +20,7 @@ public class Customer {
     @NonNull
     private String email;
     @NonNull
-    private String adress;
+    private String address;
     @Nullable
     private Integer age;
     @Nullable
