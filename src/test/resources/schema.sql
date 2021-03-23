@@ -1,4 +1,4 @@
-
+-- name have to be "schema.sql" as h2 looks for it
 DROP TABLE IF EXISTS customer;
 CREATE TABLE customer (
   id int(11) NOT NULL AUTO_INCREMENT,
